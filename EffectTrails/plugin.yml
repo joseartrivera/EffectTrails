@@ -1,0 +1,49 @@
+name: EffectTrails
+main: org.pvpzone.shanko.effecttrails.EffectTrails
+version: 0.1
+commands:
+   spark:
+      description: Lists the available effects
+      usage: /spark
+      permission: EffectTrails.spark
+      permission-message: You don't have <permission>
+   fire:
+      description: Activates fire effect
+      usage: /fire
+      permission: EffectTrails.fire
+      permission-message: You don't have <permission>
+   ender:
+      description: Activates ender effect
+      usage: /ender
+      permission: EffectTrails.ender
+      permission-message: You don't have <permission>
+   smoke:
+      description: Activates smoke effect
+      usage: /smoke
+      permission: EffectTrails.smoke
+      permission-message: You don't have <permission>
+   blood:
+      description: Activates blood effect
+      usage: /blood
+      permission: EffectTrails.blood
+      permission-message: You don't have <permission>
+   aura:
+      description: Activates Aura effect
+      usage: /aura
+      permission: EffectTrails.aura
+      permission-message: You don't have <permission>
+   poop:
+      description: Activates Poop effect
+      usage: /poop
+      permission: EffectTrails.poop
+      permission-message: You don't have <permission>
+   rumble:
+      description: Activates Rumble effect
+      usage: /rumble
+      permission: EffectTrails.rumble
+      permission-message: You don't have <permission>
+   sparkoff:
+      description: Removes trail effect
+      usage: /sparkoff
+      permission: EffectTrails.off
+      permission-message: You don't have <permission>
